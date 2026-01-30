@@ -33,7 +33,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">Visit Us</h4>
-                    <p className="text-slate-600">123 Business Park, Sector 62,<br/>Noida, Uttar Pradesh, 201309</p>
+                    <p className="text-slate-600">GALI NO. 2 SEWAK PARK ,GROUND FLOOR HNA91, GRAM SABHA , <br />
+                  DWARKA MOR, METRO STATION GATE NO 2 ,New-DELHI 110059</p>
                   </div>
                 </div>
 
@@ -43,8 +44,10 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">Call Us</h4>
-                    <p className="text-slate-600">+91 98765 43210</p>
-                    <p className="text-slate-500 text-sm">Mon-Fri from 9am to 6pm</p>
+                    <p className="text-slate-600">+91 88266 52785</p>
+                    <p className="text-slate-600">+91 95607 89745</p>
+                    <p className="text-slate-600">+91 99714 79785</p>
+                    {/* <p className="text-slate-500 text-sm">Mon-Fri from 9am to 6pm</p> */}
                   </div>
                 </div>
 
@@ -54,7 +57,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">Email Us</h4>
-                    <p className="text-slate-600">contact@jamwalconsultancy.com</p>
+                    <p className="text-slate-600">kuldeep.jamwal1971@gmail.com</p>
+                    <p className="text-slate-600">vishaldeepjamwal278@gmail.com</p>
                   </div>
                 </div>
               </div>

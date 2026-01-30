@@ -7,6 +7,7 @@ import payrollImage from '@assets/generated_images/payroll_services_concept.png'
 import lawImage from '@assets/generated_images/labour_law_consultancy_concept.png';
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import LogoCarousel from "@/components/LogoCarousel";
 
 export default function Home() {
   const services = [
@@ -30,9 +31,12 @@ export default function Home() {
     }
   ];
 
+
   return (
+
     <Layout>
       <Hero />
+      <LogoCarousel />
       
       {/* Services Overview */}
       <section className="py-20 bg-white">
@@ -52,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Link href="/services">
+            <Link to="/services">
               <Button variant="outline" size="lg">View All Services</Button>
             </Link>
           </div>
@@ -97,7 +101,7 @@ export default function Home() {
               <p className="text-slate-600 leading-relaxed">
                 Our proactive approach ensures that your business stays ahead of regulatory changes, minimizing risk and maximizing operational efficiency. We handle the paperwork so you can handle your business.
               </p>
-              <Link href="/about">
+              <Link to="/about">
                 <Button className="mt-4">Read More About Us</Button>
               </Link>
             </div>
@@ -107,18 +111,18 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl mx-auto">
+        <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Ready to Streamline Your Compliance?</h2>
           <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">
             Get in touch with us today for a free audit of your current compliance status and a customized proposal.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact">
+            <Link to="/contact">
               <Button size="lg" variant="secondary" className="text-primary font-bold">Contact Us Now</Button>
             </Link>
             <a href="tel:+919876543210">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                Call +91 98765 43210
+                Call +91 99714 79785
               </Button>
             </a>
           </div>

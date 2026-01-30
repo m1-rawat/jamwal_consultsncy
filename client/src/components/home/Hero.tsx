@@ -11,7 +11,7 @@ export function Hero() {
           <div className="space-y-8 animate-in slide-in-from-left-5 duration-700">
             <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-primary">
               <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
-              Trusted by 500+ Businesses in India
+              Trusted by 100+ Businesses in India
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-slate-900 leading-tight">
               Simplify Your <br/>

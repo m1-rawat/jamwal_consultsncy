@@ -62,19 +62,29 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm text-slate-400">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 shrink-0" />
+                
                 <span>
-                  123 Business Park, Sector 62,<br />
-                  Noida, Uttar Pradesh, 201309
+                  GALI NO. 2 SEWAK PARK ,GROUND FLOOR HNA91, GRAM SABHA , <br />
+                  DWARKA MOR, METRO STATION GATE NO 2 ,New-DELHI 110059
                 </span>
               </li>
-              <li className="flex items-center gap-3 text-sm text-slate-400">
-                <Phone className="h-5 w-5 text-primary shrink-0" />
-                <span>+91 98765 43210</span>
-              </li>
-              <li className="flex items-center gap-3 text-sm text-slate-400">
-                <Mail className="h-5 w-5 text-primary shrink-0" />
-                <span>contact@jamwalconsultancy.com</span>
-              </li>
+           <li className="flex items-start gap-3 text-sm text-slate-400">
+  <Phone className="h-5 w-5 text-primary mt-1 shrink-0" />
+  <div className="flex flex-col">
+    <span>+91 88266 52785</span>
+    <span>+91 95607 89745</span>
+    <span>+91 99714 79785</span>
+  </div>
+</li>
+
+             <li className="flex items-start gap-3 text-sm text-slate-400">
+  <Mail className="h-5 w-5 text-primary mt-1 shrink-0" />
+  <div className="flex flex-col">
+    <span>kuldeep.jamwal1971@gmail.com</span>
+    <span>vishaldeepjamwal278@gmail.com</span>
+  </div>
+</li>
+
             </ul>
           </div>
         </div>

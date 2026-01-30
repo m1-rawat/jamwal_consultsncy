@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
+// import { Link } from "wouter";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -32,9 +33,13 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-serif font-bold text-primary tracking-tight">
-          Jamwal<span className="text-foreground">Consultancy</span>
-        </Link>
+        <Link href="/" className="flex items-center">
+  <img
+    src="/JAMWAL LOGO.jpg.jpeg"
+    alt="Jamwal Consultancy Logo"
+    className="h-10 w-auto object-contain"
+  />
+</Link>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
@@ -53,7 +58,7 @@ export function Navbar() {
             </Link>
           ))}
           <div className="flex items-center gap-4 ml-4">
-             <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+             <a href="https://wa.me/919971479785" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="icon" className="rounded-full text-green-600 hover:text-green-700 hover:bg-green-50 border-green-200">
                 <MessageCircle className="h-5 w-5" />
               </Button>
