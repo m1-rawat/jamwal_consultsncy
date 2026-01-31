@@ -7,7 +7,57 @@ import payrollImage from '@assets/generated_images/payroll_services_concept.png'
 import lawImage from '@assets/generated_images/labour_law_consultancy_concept.png';
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import LogoCarousel from "@/components/LogoCarousel";
+import { JSX } from "react";
+
+const LOGOS = [
+  "/VIGOR LOGO.jpg.jpeg",
+  "/PEL.gif",
+  "/PALLIUM MARKETING PRIVATE LIMITED.jpg.jpeg",
+  "/NUFIN SOLUTIONS PRIVATE LIMITED.jpg.jpeg",
+  "/NEXT BIG BOX.jpg.jpeg",
+  "/MUGHAL MAHAL.jpg.jpeg",
+  "/LUXOUS.jpg.jpeg",
+  "/INFINITYTANK.jpg.jpeg",
+  "/EXOTISTIC.jpg.jpeg",
+  "/alianca.webp",
+  "/DPAL.jpg.jpeg",
+  "/ALERT PEST.webp",
+  "/AGGARWAL ASS.jpg.jpeg",
+  "/bharat fincare.webp",
+];
+
+function InlineLogoCarousel(): JSX.Element {
+  return (
+    <section className="py-8">
+      <div className="mx-auto max-w-7xl">
+        <div className="text-center mb-6">
+          <h3 className="text-xl md:text-2xl font-semibold text-slate-900">Our Clients</h3>
+        </div>
+      </div>
+
+      <div className="mx-auto max-w-7xl overflow-hidden">
+        <div className="flex w-[200%] animate-marquee gap-6">
+          {LOGOS.concat(LOGOS).map((src, idx) => (
+            <div key={idx} className="flex-shrink-0 flex items-center justify-center w-32 md:w-40 lg:w-48 p-4">
+              <img
+                src={src}
+                alt=""
+                loading="lazy"
+                className="max-h-12 md:max-h-20 w-auto object-contain mx-auto"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <style>{`
+        @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+        .animate-marquee { animation: marquee 30s linear infinite; }
+        @media (prefers-reduced-motion: reduce) { .animate-marquee { animation: none; } }
+      `}</style>
+    </section>
+  );
+}
 
 export default function Home() {
   const services = [
@@ -36,7 +86,6 @@ export default function Home() {
 
     <Layout>
       <Hero />
-      <LogoCarousel />
       
       {/* Services Overview */}
       <section className="py-20 bg-white">
@@ -108,6 +157,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <InlineLogoCarousel />
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">

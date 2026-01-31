@@ -4,6 +4,7 @@ import { ShieldCheck, Calculator, Scale, FileText, Building2, Users } from "luci
 import esiImage from '@assets/generated_images/esi_pf_compliance_concept.png';
 import payrollImage from '@assets/generated_images/payroll_services_concept.png';
 import lawImage from '@assets/generated_images/labour_law_consultancy_concept.png';
+import modernImage from '@assets/generated_images/modern_corporate_indian_office_consultancy_team.png';
 
 export default function Services() {
   const allServices = [
@@ -35,13 +36,13 @@ export default function Services() {
       title: "Shop & Establishment Act",
       description: "Assistance with registration and renewal of Shop & Establishment licenses across various states in India.",
       icon: <Building2 className="h-6 w-6" />,
-      image: undefined
+      image: modernImage
     },
     {
       title: "Contract Labour Compliance",
       description: "Management of CLRA licenses, maintenance of statutory registers, and ensuring compliance for contract workers.",
       icon: <Users className="h-6 w-6" />,
-      image: undefined
+      image: lawImage
     }
   ];
 
