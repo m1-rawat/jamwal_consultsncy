@@ -8,9 +8,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-serif font-bold text-white">
-              Jamwal<span className="text-primary-foreground/80">Consultancy</span>
-            </h3>
+            <img
+    src="/JAMWAL LOGO.jpg.jpeg"
+    alt="Jamwal Consultancy Logo"
+    className="h-10 w-auto object-contain"
+  />
             <p className="text-slate-400 text-sm leading-relaxed">
               Your trusted partner for ESI, PF, Payroll, and Labour Law compliance. We simplify complex regulations so you can focus on growing your business.
             </p>

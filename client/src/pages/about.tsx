@@ -34,7 +34,7 @@ export default function About() {
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
-                {['500+ Happy Clients', '10+ Years Experience', '100% Compliance Rate', '24/7 Support'].map((item) => (
+                {['100+ Happy Clients', '15+ Years Experience', '100% Compliance Rate', '24/7 Support'].map((item) => (
                   <div key={item} className="flex items-center gap-2">
                     <CheckCircle2 className="h-5 w-5 text-primary" />
                     <span className="font-medium text-slate-900">{item}</span>

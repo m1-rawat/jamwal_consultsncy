@@ -37,7 +37,7 @@ export function Navbar() {
   <img
     src="/JAMWAL LOGO.jpg.jpeg"
     alt="Jamwal Consultancy Logo"
-    className="h-10 w-auto object-contain"
+    className="h-20 w-20 object-contain"
   />
 </Link>
 
