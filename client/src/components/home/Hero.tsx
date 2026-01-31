@@ -1,4 +1,5 @@
-import heroImage from '@assets/generated_images/modern_corporate_indian_office_consultancy_team.png';
+import hero1Image from '@assets/generated_images/modern_corporate_indian_office_consultancy_team.png';
+import heroImage from '@assets/generated_images/FINALLLL.jpg.jpeg';
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
